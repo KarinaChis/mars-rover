@@ -1,0 +1,26 @@
+{
+  "name": "emilia_coding_challenge",
+  "version": "0.1.0",
+  "description": "An empty Javascript project with Jest",
+  "license": "UNLICENSED",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homerun-gmbh/emilia_coding_challenge.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
